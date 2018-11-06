@@ -1,9 +1,6 @@
 # The purpose of this script is to make the example csv files we will work with.
-# Although I could do all this without the fs library, it would be much harder.
 
 library(tidyverse)
-library(fs)
-
 
 dir_create("data")
 
